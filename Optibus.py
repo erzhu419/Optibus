@@ -20,6 +20,9 @@ def createMatrix(n):
 ##*************************************************************************************************
 
 #This function calculates the similarity, between two duties D1, D2
+#This function calculates the similarity between two duties D1, D2.
+#Inputs: two duties.
+#Output : a float that represents the similarity
 
 def calcSimilarity (D1, D2):
     D1set = set(D1)
@@ -34,6 +37,8 @@ def calcSimilarity (D1, D2):
 
 ##Given two days of duties, assign for every driver Pi the duty Di the first day, and then finds
 ##The best match for the second day (in means of maximum sum)
+#Inputs: two lists of duties
+#Output: A list of tuples of the following structure: (<driver id>, (<Day 1 duty>, <Day 2 duty>))
 
 def assignDuties(dayA, dayB):
     if len(dayA) != len(dayB):
