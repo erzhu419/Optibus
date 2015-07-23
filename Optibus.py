@@ -19,7 +19,6 @@ def createMatrix(n):
 
 ##*************************************************************************************************
 
-#This function calculates the similarity, between two duties D1, D2
 #This function calculates the similarity between two duties D1, D2.
 #Inputs: two duties.
 #Output : a float that represents the similarity
